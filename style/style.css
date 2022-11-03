@@ -103,6 +103,9 @@ padding-right:30px;
     background-color: red;
     color:white;
 }
-input:checked .cookie-accept{
+input{
+    display:none
+}
+input:checked ~ #cookie-accept{
     display:none
 }
